@@ -1,3 +1,7 @@
-const Navbar = () => <h1>Navbar goes here.</h1>;
-
-export default Navbar;
+export default function Navbar() {
+  return (
+    <div className="Navbar">
+      <h1>Navbar component</h1>
+    </div>
+  );
+}
