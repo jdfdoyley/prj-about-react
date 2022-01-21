@@ -1,7 +1,11 @@
+import icon from "../reactjs-icon.png";
+
 export default function Navbar() {
   return (
-    <div className="Navbar">
-      <h1>Navbar component</h1>
-    </div>
+    <nav className="Navbar">
+      <img className="Navbar--brand-icon" src={icon} alt="React js icon" />
+      <h3 className="Navbar--brand-text">ReactFacts</h3>
+      <h4 className="Navbar--title-text">React Course - Project 1</h4>
+    </nav>
   );
 }
