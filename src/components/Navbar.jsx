@@ -1,4 +1,4 @@
-import icon from "../reactjs-icon.png";
+import icon from "../react-icon-sm.png";
 
 export default function Navbar() {
   return (

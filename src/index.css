@@ -15,14 +15,16 @@ body {
   width: 550px;
 }
 
+/* NAVBAR COMPONENT STYLES */
+
 .Navbar {
   background-color: #21222a;
   display: flex;
   align-items: center;
   height: 90px;
 
-  padding-left: 1.625rem; /* 26px */
-  padding-right: 1.625rem; /* 26px */
+  padding-left: 1.6875rem; /* 27px */
+  padding-right: 1.6875rem; /* 27px */
 }
 
 .Navbar--brand-icon {
@@ -42,4 +44,48 @@ body {
   color: #deebf8;
   font-weight: 600;
   line-height: 1.25; /* 20px */
+}
+
+/* MAIN COMPONENT STYLES */
+.Main {
+  background-color: #282d35;
+  color: #ffffff;
+  padding-top: 3.5625rem; /* 57px */
+  padding-right: 1.6875rem; /* 27px */
+  padding-bottom: 7.8125rem; /* 125px */
+  padding-left: 1.6875rem; /* 27px */
+  position: relative;
+  overflow: hidden;
+}
+
+.Main--header {
+  font-size: 2.44125rem; /*39.06px */
+  margin-bottom: 2.875rem; /* 46px */
+  letter-spacing: -0.05rem; /* -0.8px */
+  line-height: 1.20327701; /* 47px */
+}
+
+.Main--list-items {
+  padding: 0;
+  max-width: 25.8125rem; /* 413px */
+}
+
+.Main--list-items li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
+
+.Main--list-items li {
+  line-height: 1.1875rem; /* 19px */
+  margin-left: 3rem; /* 48px */
+}
+
+.Main--list-items > *:not(:last-child) {
+  margin-bottom: 1.1875rem; /* 19px */
+}
+
+.Main--icon-lg {
+  position: absolute;
+  right: -131px;
+  top: 107px;
 }
